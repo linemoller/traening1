@@ -6,6 +6,8 @@ namespace CarProjekt
         {
             Console.WriteLine("Hvad hedder du?");
             string navn = Console.ReadLine();
+            Console.WriteLine("Hvor gammel er du?");
+            int alder =int.Parse(Console.Readline());
             Console.WriteLine("Skriv bilmærke");
             string brand = Console.ReadLine();
             Console.WriteLine("Skriv model");
