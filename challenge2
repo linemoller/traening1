@@ -1,0 +1,10 @@
+Console.WriteLine("Hej hvad hedder du?");
+string navn = Console.ReadLine();
+Console.WriteLine("Hej " + navn +"!");
+Console.WriteLine("Hvad er din ynglings farve " + navn+"?");
+string farve = Console.ReadLine();
+Console.WriteLine("Wauw " + farve+"!");
+Console.WriteLine("Det er også en flot farve");
+Console.WriteLine("Hvor gammel er du " + navn+"?");
+int alder = int.Parse(Console.ReadLine());
+Console.WriteLine("Du er " + alder + " år gammel, det er godt at høre!");
